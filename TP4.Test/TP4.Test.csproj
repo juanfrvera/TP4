@@ -48,6 +48,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UTEj5.cs" />
+    <Compile Include="UTEj4Aproximacion.cs" />
     <Compile Include="UTEj3EliminarComparar.cs" />
     <Compile Include="UTEj1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -62,9 +64,17 @@
       <Project>{886f3de2-91a5-48d7-a0f6-bde99eac2838}</Project>
       <Name>Ej3</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TP4\TP4.csproj">
+    <ProjectReference Include="..\Ej4\Ej4.csproj">
+      <Project>{5ed38139-08f1-46f5-9ffe-589deae769a5}</Project>
+      <Name>Ej4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ej5\Ej5.csproj">
+      <Project>{f388cae2-7329-4680-ad18-3e61426f19ab}</Project>
+      <Name>Ej5</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TP4\Ej1.csproj">
       <Project>{7d7e34be-12cc-4713-bae5-377c1149c259}</Project>
-      <Name>TP4</Name>
+      <Name>Ej1</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

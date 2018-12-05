@@ -1,13 +1,13 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ej4
+namespace Ej5
 {
-    class Program
+    interface IEvaluador
     {
-        static void Main(string[] args){}
+        bool EsValida(SolicitudPrestamo pSolicitud); 
     }
 }

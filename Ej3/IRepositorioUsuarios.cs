@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ej3
 {
-    interface IRepositorioUsuarios : IComparer<Usuario>
+    public interface IRepositorioUsuarios : IComparer<Usuario>
     {
         void Agregar(Usuario pUsuario);
         void Actualizar(Usuario pUsuario);
